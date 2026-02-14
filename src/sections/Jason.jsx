@@ -12,7 +12,7 @@ const Jason = () => {
             scrollTrigger:{
                 trigger: '.jason',
                 start: 'top 90%',
-                end: '50% center',
+                end: '60% center',
                 scrub: 2,  
                 markers: true,
             }
