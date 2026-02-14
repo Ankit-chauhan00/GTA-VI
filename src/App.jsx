@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from './sections/Hero'
+import NavBar from './sections/NavBar'
 
 const App = () => {
   return (
     <main>
-      <div className="text-3xl text-pink">welcome to the world of GTA nad GSAP</div>
+      <NavBar/>
+      <Hero/>
     </main>
   )
 }

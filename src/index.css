@@ -64,10 +64,10 @@ main {
     @apply w-dvw overflow-x-hidden;
   }
   nav {
-    @apply fixed top-0 left-0 w-full flex justify-between items-center md:p-16 p-5 z-[100];
+    @apply fixed top-0 left-0 w-full flex justify-between items-center md:p-16 p-5 z-100;
   }
   .gradient-title {
-    @apply md:text-[8rem] text-[5rem] font-round-bold !font-extrabold uppercase md:leading-[7rem] leading-[4.5rem] text-center bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
+    @apply md:text-[8rem] text-[5rem] font-round-bold font-extrabold uppercase md:leading-[7rem] leading-[4.5rem] text-center bg-linear-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
   }
   .hero-section {
     @apply w-dvw h-dvh relative overflow-hidden;
@@ -181,6 +181,16 @@ main {
       }
     }
   }
+  .lucia-content {
+    @apply flex justify-center items-center;
+
+    h1 {
+      @apply relative font-round-bold md:text-9xl text-6xl md:leading-28;
+    }
+    h2 {
+      @apply relative font-round-bold md:text-4xl text-xl max-w-md lg:mt-0 mt-10;
+    }
+  }
   .post-card {
     @apply relative flex justify-center items-center pb-80 shadow-2xl;
 
@@ -236,6 +246,19 @@ main {
   mask-size: 100% 100%;
 }
 
+.lucia-content h1,
+.lucia-content h2 {
+  background-image: radial-gradient(
+    at 80% 40%,
+    rgb(252, 82, 67) 0%,
+    rgb(223, 58, 147) 50%,
+    transparent 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .mask-wrapper {
   mask-image: url("/images/big-hero-text.svg");
   mask-repeat: no-repeat;
@@ -245,7 +268,7 @@ main {
   background: linear-gradient(135deg, #1e2a52 0%, #6e4b91 100%);
 }
 
-.jason-content {
+.jon-content {
   background: radial-gradient(ellipse, #111117 20%, transparent 70%);
 }
 
