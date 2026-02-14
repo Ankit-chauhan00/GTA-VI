@@ -29,7 +29,7 @@ const Hero = () => {
         end: '+=250%',
         scrub: 2.5,
         pin: true,
-        markers: true,
+        markers: false,
       }
     })
      tl
