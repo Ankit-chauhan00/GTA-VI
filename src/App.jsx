@@ -5,6 +5,7 @@ import FirstVedio from './sections/FirstVedio'
 import Jason from './sections/Jason'
 import SecondVedio from './sections/SecondVedio'
 import Lucia from './sections/Lucia'
+import PostCard from './sections/PostCard'
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
       <SecondVedio/>
       {/* Lucia */}
       <Lucia/>
+
+      <PostCard/>
     </main>
   )
 }

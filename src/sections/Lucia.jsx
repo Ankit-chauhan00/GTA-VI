@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import React from 'react'
+
 
 const Lucia = () => {
 
@@ -13,7 +13,7 @@ const Lucia = () => {
                 start: 'top 90%',
                 end: '60% center',
                 scrub: 2,
-                markers: true,
+                markers: false,
             }
         }).to('.second-vd', {opacity: 0, duration: 1, ease: 'power1.inOut'})
     })
