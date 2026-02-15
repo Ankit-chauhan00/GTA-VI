@@ -6,7 +6,7 @@ import gsap from "gsap"
 const Jason = () => {
 
     useGSAP(()=>{
-        gsap.set('.jason',{marginTop: '-160vh'});
+        gsap.set('.jason',{marginTop: '-100vh'});
 
         gsap.timeline({
             scrollTrigger:{
@@ -14,7 +14,7 @@ const Jason = () => {
                 start: 'top 90%',
                 end: '60% center',
                 scrub: 2,  
-                markers: true,
+                markers: false,
             }
         }).to('.first-vd',{opacity: 0, duration: 1, ease: 'power3.inOut'})
 

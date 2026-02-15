@@ -4,6 +4,7 @@ import NavBar from './sections/NavBar'
 import FirstVedio from './sections/FirstVedio'
 import Jason from './sections/Jason'
 import SecondVedio from './sections/SecondVedio'
+import Lucia from './sections/Lucia'
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
 
       <SecondVedio/>
       {/* Lucia */}
-      
+      <Lucia/>
     </main>
   )
 }
