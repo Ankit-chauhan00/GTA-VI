@@ -6,6 +6,7 @@ import Jason from './sections/Jason'
 import SecondVedio from './sections/SecondVedio'
 import Lucia from './sections/Lucia'
 import PostCard from './sections/PostCard'
+import Final from './sections/Final'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Lucia/>
 
       <PostCard/>
+      <Final/>
     </main>
   )
 }
